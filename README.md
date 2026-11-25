@@ -81,9 +81,25 @@ To create the Total Cost calculation, we need to: go back to the TABLE VIEW --> 
 (28.New Measure Profit Percentage.png)
 (29.First insights & visuals of the data.png)
 (30.Profit percentage by product chart.png)
-(31. First Insight.png)
+
+(31. First Insight.png) - FIRST INSIGHTS:
+
+* Product Peanut Butter Cubes has a profit margin of 87.1%. It's the most profitable of all products;
+* Product Baker's Coco Chips had a profit margin of only 17.4%. It's the least profitable products;
+  
 
 
+(32.Low box shipments insights.png)
+
+(33.Latest insights.png)
+
+(34.low box shipment percentage graph.png)
+
+* Product Milk Bars has the highest Low Box Shipments percentage at 16.5%. ;
+* Product Rasperry Choco has the lowest Low Box Shipments percentage at only 5%.;
+
+
+Calendar Table
 
 
 
