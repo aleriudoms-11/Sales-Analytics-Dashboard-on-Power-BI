@@ -23,9 +23,9 @@ The dashboard enables users to monitor key business metrics such as total revenu
 
 This repository demonstrates how Power BI can be leveraged to transform business data into meaningful insights, helping organisations optimise sales strategies, identify growth opportunities, and improve overall performance. I will demonstrate the visually engaging dashboards I designed based on a fictitious chocolate factory's business data. The dashboard focus on highlighting the most common KPI's found in the world of business administration.
 
-1) This is the link for the raw data used in this project: [Sample Data]([./path/to/file](https://github.com/aleriudoms-11/Sales-Analytics-Dashboard-on-Power-BI/blob/main/ac-sample-data.xlsx))
+**1) This is the link for the raw data used in this project: [Sample Data]([./path/to/file](https://github.com/aleriudoms-11/Sales-Analytics-Dashboard-on-Power-BI/blob/main/ac-sample-data.xlsx))**
 
-2) We are going to start by doing some Data Modelling and Star Schemma development with PowerBI. We are going to use the 3 sets of data available to us:
+**2) We are going to start by doing some Data Modelling and Star Schemma development with PowerBI. We are going to use the 3 sets of data available to us:**
 
 **Tab1 --> Shipment Data:**
 
@@ -39,7 +39,30 @@ This repository demonstrates how Power BI can be leveraged to transform business
 
 ![Mona](https://github.com/aleriudoms-11/Sales-Analytics-Dashboard-on-Power-BI/blob/main/Images/4.Calendar%20table%20data%20tab.png)
 
-This is how the Star Shcemma looks like after I organised and connected the tables in PowerBI:
+**This is how the Star Schemma looks like after I organised and connected the tables in PowerBI:**
+
+![Mona](https://github.com/aleriudoms-11/Sales-Analytics-Dashboard-on-Power-BI/blob/main/Images/13.Star%20schemma%20created.png)
+
+**3) Identifying measures, KPIs and using DAX for Sales Analytics:**
+
+-  Total Sales **Measure1:  Total Sales = SUM(shipments[Sales])**
+-  Total Boxes **Measure2: Total Boxes = sum(shipments[Boxes])**
+-  Total Shipments **Measure3: Total Shipments = COUNTROWS(shipments)**
+-  Total Cost **Measure4: Total Costs = SUM(shipments[Costs])**
+-  Total Profit **Measure5: Total Profit = [Total Sales] - [Total Costs]**
+-  Profit % **Measure6: Profit % = DIVIDE([Total Profit],[Total Sales])**
+-  Low Box Shipments count (Sample boxes < 50) **Measure7: Low Box Shipments count = CALCULATE([Total Shipments],shipments[Boxes]<50)**
+-  Low Box Shipments % **Measure8: Low Box Shipments % = DIVIDE([Low Box Shipments count], [Total Shipments])**
+-  Month on month changes **Measure9: Coming up in the next few steps**
+-  Year on year changes **Measure10: Coming up in the next few steps**
+
+**Here's a screenshot of a DAX measure:**
+
+
+
+
+
+
 
 
 
