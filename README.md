@@ -68,10 +68,15 @@ This repository demonstrates how Power BI can be leveraged to transform business
 -  **Product Peanut Butter Cubes** has a profit margin of 87.1%. It's the most profitable of all products;
 -  **Product Baker's Coco Chips** had a profit margin of only 17.4%. It's the least profitable of all products.
 
-![Mona]()
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+![Mona](https://github.com/aleriudoms-11/Sales-Analytics-Dashboard-on-Power-BI/blob/main/Images/34.low%20box%20shipment%20percentage%20graph.png)
 
 -  **Product Milk Bars** has the highest Low Box Shipments percentage at 16.5%;
 -  **Product Raspberry Choco** has the lowest Low Box Shipments percentage at only 5%.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 
 
