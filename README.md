@@ -87,4 +87,6 @@ On the Model View, select the Calendar Table, right click on it and use the "Mar
 ![Mona](https://github.com/aleriudoms-11/Sales-Analytics-Dashboard-on-Power-BI/blob/main/Images/Mark%20as%20data%20table.png)
 
 
-Now we are going to use Power Query (Transform Data) to add a few columns 
+Now we are going to use Power Query (Transform Data) to add a few columns to our original Date Table:
+
+
