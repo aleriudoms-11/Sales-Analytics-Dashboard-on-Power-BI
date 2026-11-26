@@ -25,12 +25,21 @@ This repository demonstrates how Power BI can be leveraged to transform business
 
 1) This is the link for the raw data used in this project: [Sample Data]([./path/to/file](https://github.com/aleriudoms-11/Sales-Analytics-Dashboard-on-Power-BI/blob/main/ac-sample-data.xlsx))
 
-2) We are going to start by doing some Data Modelling and Star Schemma development with PowerBI
+2) We are going to start by doing some Data Modelling and Star Schemma development with PowerBI. We are going to use the 3 sets of data available to us:
 
+**Tab1 --> Shipment Data:**
 
+![Mona](https://github.com/aleriudoms-11/Sales-Analytics-Dashboard-on-Power-BI/blob/main/Images/2.Shipment%20data%20tab.png)
 
+**Tab2 --> Dimension Data:**
 
+![Mona](https://github.com/aleriudoms-11/Sales-Analytics-Dashboard-on-Power-BI/blob/main/Images/3.Dimension%20tables%20data%20tab.png)
 
+**Tab3 --> Calendar Data:**
+
+![Mona](https://github.com/aleriudoms-11/Sales-Analytics-Dashboard-on-Power-BI/blob/main/Images/4.Calendar%20table%20data%20tab.png)
+
+This is how the Star Shcemma looks like after I organised and connected the tables in PowerBI:
 
 
 
