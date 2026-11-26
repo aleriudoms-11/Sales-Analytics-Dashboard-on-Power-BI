@@ -3,23 +3,25 @@ Sales Analytics Dashboard in Power BI provides interactive visualisations and ac
 
 The dashboard enables users to monitor key business metrics such as total revenue, profit, sales growth, customer segmentation, product performance, and regional sales trends. Interactive filters and drill-through capabilities allow stakeholders to explore data at multiple levels and make data-driven decisions with confidence.
 
-Key Features
-📊 Interactive sales performance dashboard
-💰 Revenue, profit, and margin analysis
-📈 Monthly and yearly sales trend tracking
-🌍 Regional and geographical sales insights
-🛍️ Product category and top-performing product analysis
-👥 Customer segmentation and purchasing behaviour insights
-🎯 KPI monitoring with dynamic visualisations
-🔍 Drill-down reports and advanced filtering options
+## Key Features
+- 📊 Interactive sales performance dashboard
+- 💰 Revenue, profit, and margin analysis
+- 📈 Monthly and yearly sales trend tracking
+- 🌍 Regional and geographical sales insights
+- 🛍️ Product category and top-performing product analysis
+- 👥 Customer segmentation and purchasing behaviour insights
+- 🎯 KPI monitoring with dynamic visualisations
+- 🔍 Drill-down reports and advanced filtering options
 
-Technologies Used
-Microsoft Power BI
-Power Query (ETL & Data Transformation)
-DAX (Data Analysis Expressions)
-Excel / CSV Data Sources
+## Technologies Used
+- Microsoft Power BI - Main data visualisation platform used for report creation
+- Power Query (ETL & Data Transformation for cleaning, reshaping and preparing data)
+- DAX (Data Analysis Expressions - used for calculated measures, dynamic visuals and conditioning logic)
+- Excel / CSV Data Sources
 
-This repository demonstrates how Power BI can be leveraged to transform business data into meaningful insights, helping organisations optimise sales strategies, identify growth opportunities, and improve overall performance.
+## Purpose of the project
+
+This repository demonstrates how Power BI can be leveraged to transform business data into meaningful insights, helping organisations optimise sales strategies, identify growth opportunities, and improve overall performance. I will demonstrate the visually engaging dashboards I designed based on a fictitious chocolate factory's business data. The dashboard focus on highlighting the most common KPI's found in the world of business administration.
 
 1) How to design a dashboard in Power BI?
 2) Data modelling with Power BI and star schema development
