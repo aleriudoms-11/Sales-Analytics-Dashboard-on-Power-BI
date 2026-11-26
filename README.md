@@ -60,9 +60,13 @@ This repository demonstrates how Power BI can be leveraged to transform business
 
 ![Mona](https://github.com/aleriudoms-11/Sales-Analytics-Dashboard-on-Power-BI/blob/main/Images/26.New%20measure%20Total%20Costs.png)
 
-**4) With all the measure created, now we can start using the Visuals tab in PowerBI to get the first insights:**
+**4) With all the DAX measures created, now we can start using the Visuals tab in PowerBI to get the first insights:**
 
 
+![Mona](https://github.com/aleriudoms-11/Sales-Analytics-Dashboard-on-Power-BI/blob/main/Images/33.Latest%20insights.png)
+
+-  **Product Peanut Butter Cubes** has a profit margin of 87.1%. It's the most profitable of all products;
+-  **Product Baker's Coco Chips** had a profit margin of only 17.4%. It's the least profitable of all products.
 
 
 
