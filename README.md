@@ -43,7 +43,7 @@ This repository demonstrates how Power BI can be leveraged to transform business
 
 ![Mona](https://github.com/aleriudoms-11/Sales-Analytics-Dashboard-on-Power-BI/blob/main/Images/13.Star%20schemma%20created.png)
 
-**3) Identifying measures, KPIs and using DAX for Sales Analytics:**
+**3) Identifying KPIs and and setting up a dedicated (DAX) measure table for Sales Analytics:**
 
 -  Total Sales **Measure1:  Total Sales = SUM(shipments[Sales])**
 -  Total Boxes **Measure2: Total Boxes = sum(shipments[Boxes])**
@@ -58,6 +58,9 @@ This repository demonstrates how Power BI can be leveraged to transform business
 
 **Here's a screenshot of a DAX measure:**
 
+![Mona](https://github.com/aleriudoms-11/Sales-Analytics-Dashboard-on-Power-BI/blob/main/Images/26.New%20measure%20Total%20Costs.png)
+
+**4) With all the measure created, now we can start using the Visuals tab in PowerBI to get the first insights:**
 
 
 
