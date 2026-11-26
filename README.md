@@ -90,3 +90,13 @@ On the Model View, select the Calendar Table, right click on it and use the "Mar
 Now we are going to use Power Query (Transform Data) to add a few columns to our original Date Table:
 
 
+![Mona](https://github.com/aleriudoms-11/Sales-Analytics-Dashboard-on-Power-BI/blob/main/Images/Adding%20date%20column.png)
+
+
+Ok, now we are ready to perform our first Month-on-Month calculations:
+
+
+
+
+
+
