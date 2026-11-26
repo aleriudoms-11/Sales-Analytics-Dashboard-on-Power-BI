@@ -80,9 +80,11 @@ This repository demonstrates how Power BI can be leveraged to transform business
 
 **5) Time intelligence calculations in Power BI: Month-on-Month & Year-on-Year changes:**
 
-Before we do these types of calculations, we need to setup certain things in our data model. On the Model View, select the Calendar Table, right click on it and use the "Mark as Date Table" option. This tells PowerBI that this is our Date Table and should be used for all the following time intelligence calculations:
+Before we do these types of calculations, we need to setup certain things in our data model. 
+
+On the Model View, select the Calendar Table, right click on it and use the "Mark as Date Table" option. This tells PowerBI that this is our Date Table and should be used for all the following time intelligence calculations:
 
 ![Mona](https://github.com/aleriudoms-11/Sales-Analytics-Dashboard-on-Power-BI/blob/main/Images/Mark%20as%20data%20table.png)
 
 
-
+Now we are going to use Power Query (Transform Data) to add a few columns 
