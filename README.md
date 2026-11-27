@@ -45,16 +45,16 @@ This repository demonstrates how Power BI can be leveraged to transform business
 
 **3) Identifying KPIs and and setting up a dedicated (DAX) measure table for Sales Analytics:**
 
--  Total Sales **Measure1:  Total Sales = SUM(shipments[Sales])**
--  Total Boxes **Measure2: Total Boxes = sum(shipments[Boxes])**
--  Total Shipments **Measure3: Total Shipments = COUNTROWS(shipments)**
--  Total Cost **Measure4: Total Costs = SUM(shipments[Costs])**
--  Total Profit **Measure5: Total Profit = [Total Sales] - [Total Costs]**
--  Profit % **Measure6: Profit % = DIVIDE([Total Profit],[Total Sales])**
--  Low Box Shipments count (Sample boxes < 50) **Measure7: Low Box Shipments count = CALCULATE([Total Shipments],shipments[Boxes]<50)**
--  Low Box Shipments % **Measure8: Low Box Shipments % = DIVIDE([Low Box Shipments count], [Total Shipments])**
--  Month on month changes **Measure9: Coming up in the next few steps**
--  Year on year changes **Measure10: Coming up in the next few steps**
+-  Total Sales **Measure1:  ```Total Sales = SUM(shipments[Sales])```**
+-  Total Boxes **Measure2: ```Total Boxes = sum(shipments[Boxes])```**
+-  Total Shipments **Measure3: ```Total Shipments = COUNTROWS(shipments)```**
+-  Total Cost **Measure4: ```Total Costs = SUM(shipments[Costs])```**
+-  Total Profit **Measure5: ```Total Profit = [Total Sales] - [Total Costs]```**
+-  Profit % **Measure6: ```Profit % = DIVIDE([Total Profit],[Total Sales])```**
+-  Low Box Shipments count (Sample boxes < 50) **Measure7: ```Low Box Shipments count = CALCULATE([Total Shipments],shipments[Boxes]<50)```**
+-  Low Box Shipments % **Measure8: ```Low Box Shipments % = DIVIDE([Low Box Shipments count], [Total Shipments])```**
+-  Month on month changes **Measure9: ```Coming up in the next few steps```**
+-  Year on year changes: **Not possible with this set of data as it only contains only 13 months worth of information**
 
 **Here's a screenshot of a DAX measure:**
 
@@ -94,6 +94,9 @@ Now we are going to use Power Query (Transform Data) to add a few columns to our
 
 
 Ok, now we are ready to perform our first Month-on-Month calculations:
+
+
+
 
 
 
