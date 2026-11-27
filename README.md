@@ -53,7 +53,7 @@ This repository demonstrates how Power BI can be leveraged to transform business
 -  Profit % **Measure6: ```Profit % = DIVIDE([Total Profit],[Total Sales])```**
 -  Low Box Shipments count (Sample boxes < 50) **Measure7: ```Low Box Shipments count = CALCULATE([Total Shipments],shipments[Boxes]<50)```**
 -  Low Box Shipments % **Measure8: ```Low Box Shipments % = DIVIDE([Low Box Shipments count], [Total Shipments])```**
--  Month on month changes **Measure9: ```Coming up in the next few steps```**
+-  Month on month changes **Measure9, 10, 11, 12, 13 & 14: ```Coming up in the next few steps```**
 -  Year on year changes: **Not possible with this set of data as it only contains only 13 months worth of information**
 
 **Here's a screenshot of a DAX measure:**
@@ -93,13 +93,38 @@ Now we are going to use Power Query (Transform Data) to add a few columns to our
 ![Mona](https://github.com/aleriudoms-11/Sales-Analytics-Dashboard-on-Power-BI/blob/main/Images/Adding%20date%20column.png)
 
 
-Ok, now we are ready to perform our first Month-on-Month calculations:
+Ok, as promised, now we are ready to perform our first Month-on-Month calculations:
+
+**Measure9:**
+
+![Mona](https://github.com/aleriudoms-11/Sales-Analytics-Dashboard-on-Power-BI/blob/main/Images/MoM%20change%20percent0.png)
+
+![Mona](https://github.com/aleriudoms-11/Sales-Analytics-Dashboard-on-Power-BI/blob/main/Images/MoM%20change%20percent1.png)
 
 
+Let's add a few more measures so we can get even more interesting insights:
+
+**Measure10:**
+
+![Mona]()
 
 
+**Measure11:**
+
+![Mona]()
 
 
+**Measure12:**
+
+![Mona]()
 
 
+**Measure13:**
+
+![Mona]()
+
+
+**Measure14:**
+
+![Mona]()
 
