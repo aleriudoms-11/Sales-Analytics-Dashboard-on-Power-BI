@@ -53,7 +53,7 @@ This repository demonstrates how Power BI can be leveraged to transform business
 -  Profit % **Measure6: ```Profit % = DIVIDE([Total Profit],[Total Sales])```**
 -  Low Box Shipments count (Sample boxes < 50) **Measure7: ```Low Box Shipments count = CALCULATE([Total Shipments],shipments[Boxes]<50)```**
 -  Low Box Shipments % **Measure8: ```Low Box Shipments % = DIVIDE([Low Box Shipments count], [Total Shipments])```**
--  Month on month changes **Measure9, 10, 11, 12 & 13: ```Coming up in the next few steps```**
+-  Month on month changes **Measure9, 10, 11, 12, 13, 14, 15, 16 & 17: ```Coming up in the next few steps```**
 -  Year on year changes: **Not possible with this set of data as it only contains only 13 months worth of information**
 
 **Here's a screenshot of a DAX measure:**
@@ -126,24 +126,20 @@ Let's add a few more measures so we can get even more interesting insights:
 
 ## So now I will introduce a few more measures in order to get all the insights we want on our dashboard. You will understand what I mean shortly!
 
-![Mona]()
+![Mona](ultimate measures)
 
 
-**Measure14:**
+**Measure14: ```Latest Date = LASTDATE('calendar'[Start of Month])```**
 
-![Mona]()
+**Measure15**
 
-
-**Measure15:**
-
-![Mona](
+![Mona](measure15)
 
 
-**Measure16:**
+**Measure16: ```Total Sales (prev month) = CALCULATE([Total Sales], PREVIOUSMONTH('calendar'[Date]))```**
 
-![Mona]()
 
 
 **Measure17:**
 
-![Mona](
+![Mona](measure17)
