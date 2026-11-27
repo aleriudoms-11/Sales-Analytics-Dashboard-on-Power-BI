@@ -126,3 +126,6 @@ Let's add a few more measures so we can get even more interesting insights:
 
 Moving forward!
 
+We are about to create our first dashboard. For that, I am going to open Microsoft PowerPoint first.
+
+
