@@ -106,22 +106,22 @@ Let's add a few more measures so we can get even more interesting insights:
 
 **Measure10:**
 
-![Mona]()
+![Mona](https://github.com/aleriudoms-11/Sales-Analytics-Dashboard-on-Power-BI/blob/main/Images/MoM%20Box%20change%20percent0.png)
 
 
 **Measure11:**
 
-![Mona]()
+![Mona](https://github.com/aleriudoms-11/Sales-Analytics-Dashboard-on-Power-BI/blob/main/Images/MoM%20Cost%20change%20percent0.png)
 
 
 **Measure12:**
 
-![Mona]()
+![Mona](https://github.com/aleriudoms-11/Sales-Analytics-Dashboard-on-Power-BI/blob/main/Images/MoM%20Profit%20change%20percent0.png)
 
 
 **Measure13:**
 
-![Mona]()
+![Mona](https://github.com/aleriudoms-11/Sales-Analytics-Dashboard-on-Power-BI/blob/main/Images/MoM%20shipment%20change%20percent0.png)
 
 
 Moving forward!
