@@ -124,8 +124,26 @@ Let's add a few more measures so we can get even more interesting insights:
 ![Mona](https://github.com/aleriudoms-11/Sales-Analytics-Dashboard-on-Power-BI/blob/main/Images/MoM%20shipment%20change%20percent0.png)
 
 
-Moving forward!
+## So now I will introduce a few more measures in order to get all the insights we want on our dashboard. You will understand what I mean shortly!
 
-We are about to create our first dashboard. For that, I am going to open Microsoft PowerPoint first.
+![Mona]()
 
 
+**Measure14:**
+
+![Mona]()
+
+
+**Measure15:**
+
+![Mona](
+
+
+**Measure16:**
+
+![Mona]()
+
+
+**Measure17:**
+
+![Mona](
