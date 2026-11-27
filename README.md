@@ -126,14 +126,14 @@ Let's add a few more measures so we can get even more interesting insights:
 
 ## So now I will introduce a few more measures in order to get all the insights we want on our dashboard. You will understand what I mean shortly!
 
-![Mona](ultimate measures)
+![Mona](https://github.com/aleriudoms-11/Sales-Analytics-Dashboard-on-Power-BI/blob/main/Images/ultimate%20measures.png)
 
 
 **Measure14: ```Latest Date = LASTDATE('calendar'[Start of Month])```**
 
-**Measure15**
+**Measure15:**
 
-![Mona](measure15)
+![Mona](https://github.com/aleriudoms-11/Sales-Analytics-Dashboard-on-Power-BI/blob/main/Images/measure15.png)
 
 
 **Measure16: ```Total Sales (prev month) = CALCULATE([Total Sales], PREVIOUSMONTH('calendar'[Date]))```**
@@ -142,4 +142,7 @@ Let's add a few more measures so we can get even more interesting insights:
 
 **Measure17:**
 
-![Mona](measure17)
+![Mona](https://github.com/aleriudoms-11/Sales-Analytics-Dashboard-on-Power-BI/blob/main/Images/measure17.png)
+
+
+UHUUUUU!
